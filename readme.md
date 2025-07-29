@@ -25,9 +25,6 @@ One USB-A and display out for external display.
 
 USB-C formfactor Nurolink/docking port with UART, I2C.
 
-Full-Size 2280 M.2 SSD can be added with Add-on board.
-
-Full power off using OS and keyboard key.
 
 # BOM
 | Component                  | Description                                      | Qty | Estimated Price (USD) | 
