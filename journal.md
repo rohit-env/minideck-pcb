@@ -1,5 +1,4 @@
-
-total hours spent: 26 hours.
+total hours spent: 43 hours.
 
 
 ### July 8, 2025  
@@ -95,8 +94,7 @@ double checked how the esp talks to the neopixel
 
 | what happened | image |
 |---------------|-------|
-| added a bunch of buttons, switches, and gpio expands | <img width="261" height="1035" alt="Screenshot 2025-07-29 221748" src="https://github.com/user-attachments/assets/dfa18253-fcdf-4820-a167-bd55400dc4de" />
- |
+| added a bunch of buttons, switches, and gpio expands | <img width="261" height="1035" alt="Screenshot 2025-07-29 221748" src="https://github.com/user-attachments/assets/dfa18253-fcdf-4820-a167-bd55400dc4de" /> |
 
 ---
 
@@ -154,7 +152,7 @@ this part was clean.
 
 ---
 
-### July 25, 2025  
+### July 22, 2025  
 **time spent:** 1.5 hours  
 
 wrapped up the final round of cleanup and review today  
@@ -162,10 +160,23 @@ triple-checked pinouts, footprints, and power rails for errors
 added fiducials, test points, and random extras like boot jumpers  
 also finalized the USB-C and HDMI protection stuff  
 
+---
 
+### July 23, 2025
+**time spent:** 4 hours  
+
+worked on deciding the dimensions for the pcb borders and made sure that it fit my case dimensions that i have planned, also many components i placed on the board, just the process of deciding the border length took a lot of time, started routing the pcb and i finished abtu 20% of it, i am thinking of importing it to easy eda pro and autorouting it but i want the source files so ill keep it
 
 ---
-July 26, 2025
+
+### july 24,2025 
+**time spent:** 3 hours  
+
+today i finished routing the display pcb, and started routing the main pcb, it did take a lot of retries since i had to replace parts and i finally found a suitable arrangement, routig all the parts in the main pcb was pretty hectic, ive finished like 70% of it, i've got school stuff to do now so imma take the night off
+
+---
+
+### July 26, 2025
 **time spent:** 2 hours 
 
 started work on the display PCB today and honestly this one's way calmer than the main board  
@@ -194,8 +205,56 @@ went full sent on layout had to rip up the power plane.
 
 ---
 
-july 29,2025
+### july 29,2025
 **time spent:** 3 hours  
 
 finished doing the firmware, got nothing to say about this one.
 
+---
+
+### July 29, 2025 ( in the night ) 
+**time spent:** 2 hours  
+Did more work on the case for the display PCB today. Most of the time went into figuring out the outer dimensions so the board actually fits in clean. Kept adjusting a few mm here and there to match the rough size I had in my head. Took way longer than it should’ve. Once that was sorted, I started adding the cutouts and screw holes. made sure the ports had breathing room, and triple-checked all the hole spacing. Don’t wanna be that guy who forgets to leave space for the USB port. Didn’t bother adding fillets or rounded corners yet just getting the basic shape right for now. Might tweak the aesthetics later once I test fit the first cut. But yeah, it’s finally starting to look like a proper case.
+| what happened | image |
+|---------------|-------|
+| sneak peaks | <img width="1242" height="858" alt="Screenshot 2025-08-02 202147" src="https://github.com/user-attachments/assets/c70c1673-6f8d-4a39-b6ea-db23ebccc63b" /> |
+| sneak peaks | <img width="690" height="763" alt="Screenshot 2025-08-02 202235" src="https://github.com/user-attachments/assets/44667d6b-108f-41e5-8cb7-69a62158e1c7" /> |
+
+---
+
+### July 30, 2025( early morning )
+**time spent** 4 hours
+Started designing the bottom half of the display case today. The goal was to keep it simple but still make sure everything lines up clean. Took a bit of time messing with dimensions—mainly double checking hole positions it matched the PCB layout. Rounded off the corners to make it less boxy and added a small notch for cable clearance later if I need it. The cutouts for the screen area and the mounts came out nice in the 3D preview.
+
+Honestly just getting the case to sit right with the PCB was half the battle, but it looks solid now. Ready to move on to the top half next.
+| what happened | image |
+|---------------|-------|
+| sneak peaks | <img width="1217" height="815" alt="Screenshot 2025-08-02 201317" src="https://github.com/user-attachments/assets/4225d18f-129e-40b3-a4fd-c140105f2112" /> |
+| sneak peaks | <img width="1644" height="974" alt="Screenshot 2025-08-02 201557" src="https://github.com/user-attachments/assets/e2a8842c-8c96-45ba-b070-0578f33e4b76" /> |
+
+---
+
+### July 30, 2025( night)
+**time spent** 2 hours
+
+I started working on the top half of the case. This part was kind of annoying, to be honest. I had to figure out the exact cutout for the display and ensure it sat flush without pressing too hard on the screen. It took a few tries to get the depth right. I kept toggling between the model and the actual display dimensions just to be sure.Then came the USB port clearance, which was a real hassle. Tiny shifts made it either not fit or too loose. I finally added a small beveled area around it so it wouldn’t scrape while plugging things in. I also had to make sure the mounting holes lined up perfectly with the bottom half. I used offsets and several measuring tools in Fusion to get it right. I added a little lip around the edges to help with alignment when snapping it on, and I created some space inside for routing wires from the display. It’s not the prettiest lid, but it gets the job done. I might refine the outer surface later to make it look cleaner. For now, I’m just focused on function.
+| what happened | image |
+|---------------|-------|
+| sneak peaks | <img width="1215" height="748" alt="Screenshot 2025-08-02 194902" src="https://github.com/user-attachments/assets/ae899ca2-b7e2-438b-9bfd-3f738996ee80" /> |
+| sneak peaks | <img width="1080" height="617" alt="Screenshot 2025-08-02 194959" src="https://github.com/user-attachments/assets/679d8518-cd1c-401e-95ed-dd554ddf62cc" /> |
+
+---
+
+### July 31,2025
+**time spent** 2 hours
+
+spent most of the evening just modeling the top half of the display case. it honestly took longer than expected lining everything up with the pcb was kind of a pain. had to double check the display cutout, standoff placement, and make sure nothing would crash into the components later. i played around with the screen window quite a bit… didn’t want it to look bulky, but also didn’t want it too snug and risk it scraping the screen when assembled. added a few guiding walls inside so the pcb can sort of “slot in” when it’s time. should help with alignment too. tweaked tolerances here and there, especially around the screen opening. might still need adjustments after the first print, but visually it’s looking nice.
+not the most fun part of the build, but we’re getting there.
+
+| what happened | image |
+|---------------|-------|
+| sneak peaks | <img width="1214" height="804" alt="Screenshot 2025-08-02 201930" src="https://github.com/user-attachments/assets/85abaf62-bda3-4362-9c8d-1092e5943701" />
+ |
+| sneak peaks | <img width="1485" height="1089" alt="Screenshot 2025-08-02 202037" src="https://github.com/user-attachments/assets/a56f7d25-29db-4b58-b25d-3bcca4fabee7" />  |
+
+---
