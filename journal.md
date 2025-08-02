@@ -136,7 +136,7 @@ design now feels like an actual engineering thing and not a spaghetti nightmare
 
 ---
 
-### July 23, 2025  
+### July 21, 2025  
 **time spent:** 2 hours  
 
 this one was about the screen and making sure it won’t fry  
